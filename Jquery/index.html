@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <div class="modal modal-form fade" id="modalBookingForm">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button aria-label="Close" class="close" data-dismiss="modal">
+            <i class="icon-error"></i>
+          </button>
+          <div class="modal-body">
+            <div class="modal-form">
+              <h3>Book an Appointment</h3>
+              <div class="successform">Sucessfully completed</div>
+              <form class="mt-15" id="bookingForm" novalidate>
+                <input type="text" name="name" />
+                <input type="text" name="phone" />
+                <input type="text" name="msg" />
+
+                <button type="submit" class="btn btn-sm btn-hover-fill">Book now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
+      integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
